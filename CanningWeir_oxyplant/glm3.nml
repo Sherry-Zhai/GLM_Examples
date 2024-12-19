@@ -92,7 +92,7 @@
    csv_point_frombot = .true.,.false.
    csv_point_at = 1.0, 0.5
    csv_point_nvars = 20  !max number allowed is 20
-   csv_point_vars = 'temp','salt','TRC_tr1', 'TRC_age','NCS_ss1','OXY_oxy','SIL_rsi',	'NIT_amm',	'NIT_nit',	'PHS_frp',	'PHS_frp_ads',	'OGM_doc',	'OGM_poc',	'OGM_don',	'OGM_pon',	'OGM_dop',	'OGM_pop',	'OGM_docr',	'OGM_donr',	'OGM_dopr','OGM_cpom' ,'PHY_grn'
+   csv_point_vars = 'temp','salt','TRC_tr1', 'TRC_age','NCS_ss1','OXY_oxy','SIL_rsi',	'NIT_amm',	'NIT_nit',	'PHS_frp',	'PHS_frp_ads',	'OGM_doc',	'OGM_poc',	'OGM_don',	'OGM_pon',	'OGM_dop',	'OGM_pop',	'OGM_docr',	'OGM_donr',	'OGM_dopr','OGM_cpom' ,'PHY_grn','PHY_bga',	'PHY_diatom'
 /
 
 !-------------------------------------------------------------------------------
@@ -108,7 +108,7 @@
     ! AED
     num_wq_vars = 20
 	 wq_names =  'TRC_age',	'NCS_ss1',	'OXY_oxy',	'NIT_amm',	'NIT_nit',	'PHS_frp',	'PHS_frp_ads',	'OGM_doc',	'OGM_poc',	'OGM_don',	'OGM_pon',	'OGM_dop',	'OGM_pop',	'OGM_docr',	'OGM_donr',	'OGM_dopr',	'OGM_cpom',	'PHY_grn' ,'PHY_bga',	'PHY_diatom'
-    wq_init_vals =  0.00, 0.00, 10.00, 10.00,	218.75, 218.75,	1.10, 1.10,	1.36, 1.36,	0.32, 0.32,	0.03, 0.03,	108.33,	108.33, 108.33,	108.33,	3.57,	3.57, 3.57,	3.57,	0.26,	0.26, 0.26,	0.26,	975.00, 975.00,	32.14, 32.14, 	2.05, 2.05,	1.00, 1.00,	10.00, 10.00 !, 10.00, 10.00, 10.00, 10.00
+    wq_init_vals =  0.00, 0.00, 10.00, 10.00,	218.75, 218.75,	1.10, 1.10,	1.36, 1.36,	0.32, 0.32,	0.03, 0.03,	108.33,	108.33, 108.33,	108.33,	3.57,	3.57, 3.57,	3.57,	0.26,	0.26, 0.26,	0.26,	975.00, 975.00,	32.14, 32.14, 	2.05, 2.05,	1.00, 1.00,	10.00, 10.00 , 10.00, 10.00, 10.00, 10.00
 /
 
 !-------------------------------------------------------------------------------
@@ -151,7 +151,7 @@
    coef_inf_entrain = 0.
    inflow_fl      = 'bcs/Canning_Inflow_s616027.csv', 'bcs/Canning_Inflow_s616092.csv' , 'bcs/Inflow_oxyplant_nic_bac.csv'
    inflow_varnum  = 23
-   inflow_vars    =  'FLOW','SALT','TEMP','TRC_tr1','TRC_age','NCS_ss1','OXY_oxy','SIL_rsi','NIT_amm','NIT_nit','PHS_frp','PHS_frp_ads','OGM_doc','OGM_poc','OGM_don','OGM_pon','OGM_dop','OGM_pop','OGM_docr','OGM_donr','OGM_dopr','OGM_cpom','PHY_grn'                    
+   inflow_vars    =  'FLOW','SALT','TEMP','TRC_tr1','TRC_age','NCS_ss1','OXY_oxy','SIL_rsi','NIT_amm','NIT_nit','PHS_frp','PHS_frp_ads','OGM_doc','OGM_poc','OGM_don','OGM_pon','OGM_dop','OGM_pop','OGM_docr','OGM_donr','OGM_dopr','OGM_cpom','PHY_grn','PHY_bga','PHY_diatom'                    
 /
 
 !-------------------------------------------------------------------------------
